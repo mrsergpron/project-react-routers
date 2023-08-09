@@ -1,0 +1,13 @@
+.menu {
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  width: 1200px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu p:not(:last-child) {
+  margin-right: 20px;
+}
